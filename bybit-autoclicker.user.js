@@ -4,7 +4,7 @@
 // @match        *://bybitcoinsweeper.com/*
 // @grant        none
 // @version      1.7
-// @author       mudachyo
+// @author       PAV
 // @icon         https://mudachyo.codes/bybit/logo.jpg
 // @downloadURL  https://github.com/pav18/Bybit-Coinsweeper/raw/main/bybit-autoclicker.user.js
 // @updateURL    https://github.com/pav18/Bybit-Coinsweeper/raw/main/bybit-autoclicker.user.js
