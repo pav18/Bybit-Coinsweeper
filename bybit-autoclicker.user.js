@@ -6,9 +6,9 @@
 // @version      1.7
 // @author       mudachyo
 // @icon         https://mudachyo.codes/bybit/logo.jpg
-// @downloadURL  https://github.com/mudachyo/Bybit-Coinsweeper/raw/main/bybit-autoclicker.user.js
-// @updateURL    https://github.com/mudachyo/Bybit-Coinsweeper/raw/main/bybit-autoclicker.user.js
-// @homepage     https://github.com/mudachyo/Bybit-Coinsweeper
+// @downloadURL  https://github.com/pav18/Bybit-Coinsweeper/blob/main/bybit-autoclicker.user.js
+// @updateURL    https://github.com/pav18/Bybit-Coinsweeper/blob/main/bybit-autoclicker.user.js
+// @homepage     https://github.com/pav18/Bybit-Coinsweeper/
 // ==/UserScript==
 
 (async function () {
@@ -37,7 +37,7 @@
   }
 
   function parseGameBoard() {
-    const gameBoardXPath = '/html/body/div[2]/section';
+    const gameBoardXPath = '//*[@id="root"]/div/section';
     const gameBoardResult = document.evaluate(
       gameBoardXPath,
       document,
