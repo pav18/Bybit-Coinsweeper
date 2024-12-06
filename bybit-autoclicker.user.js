@@ -344,7 +344,8 @@ function estimate_mine_probability(field, row, col) {
 // Функция для нажатия на кнопку "Play Again" каждые 3500 мс
 async function clickPlayAgainPeriodically() {
     const interval = setInterval(() => {
-        const buttons = document.querySelectorAll('.btn.primary-btn');
+        //const buttons = document.querySelectorAll('.btn.primary-btn');
+        const buttons = document.querySelectorAll('#root > div > div._gameEnd_8gxnp_1 > div > button');
         buttons.forEach(button => {
             if (button.textContent.trim() === 'Play Again') {
                 button.click();
